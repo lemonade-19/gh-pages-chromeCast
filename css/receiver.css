@@ -28,15 +28,14 @@ header {
 }
 
 #player {
-  width: 640px;
+  position: absolute;
+  width: auto;
+  bottom: 0%;
   border-width: 2px;
   border-style: solid;
   border-color: #696969;
   border-image: initial;
   border-radius: 12px;
-  position: relative;
-  transform: scale(1);
-  overflow: hidden;
 }
 
 cast-media-player {
