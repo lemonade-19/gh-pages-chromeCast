@@ -27,6 +27,18 @@ header {
   zoom: 1;
 }
 
+#player {
+  width: 640px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #696969;
+  border-image: initial;
+  border-radius: 12px;
+  position: relative;
+  transform: scale(1);
+  overflow: hidden;
+}
+
 cast-media-player {
   --theme-hue: 180;
   --progress-color: rgb(0, 255, 255);
