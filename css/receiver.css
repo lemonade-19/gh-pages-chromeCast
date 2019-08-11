@@ -27,28 +27,11 @@ header {
   zoom: 1;
 }
 
-article {
-  background-color: #ffffff;
-  width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  border: solid 1px #aaaaaa;
-  padding: 30px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin-bottom: 15px;
-  -webkit-box-shadow: 1px 1px 3px #aaaaaa;
-  box-shadow: 1px 1px 3px #aaaaaa;
-  border-radius: 20px;
-  overflow: hidden;
-}
-
 cast-media-player {
   --theme-hue: 180;
   --progress-color: rgb(0, 255, 255);
   --splash-image: url("res/background-1.jpg");
-  --splash-size: auto;
+  --splash-size: absolute;
   --slideshow-interval: 8;
   --slideshow-animation: 3;
   --slideshow-image-1: url("res/background-2.jpg");
