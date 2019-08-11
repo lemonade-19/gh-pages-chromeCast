@@ -29,13 +29,8 @@ header {
 
 #player {
   position: absolute;
-  width: auto;
+  width: 100%;
   bottom: 0%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #696969;
-  border-image: initial;
-  border-radius: 12px;
 }
 
 cast-media-player {
